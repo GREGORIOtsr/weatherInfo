@@ -1,5 +1,7 @@
 # WEATHER INFO Exercise #
 
+[**Netlify page**](https://lucent-chimera-645c03.netlify.app/)
+
 Vite and React project using [**OpenWeahter**](https://openweathermap.org/) API with useEffect and useState methods.
 
 The first location the web will give you is your current location, so you'll have to allow the browser to get your location. If not you can type any city in the input and get its weahter!

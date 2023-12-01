@@ -1,4 +1,5 @@
 import React from "react";
+import iconUrl from '../../../../assets/search.png';
 import './WeatherForm.css';
 
 const Form = ({ handleSubmit, currentPos }) => {
@@ -8,7 +9,7 @@ const Form = ({ handleSubmit, currentPos }) => {
         <label htmlFor="city">Search the weather from any city</label>
         <div>
           <input type="text" name="city" placeholder="City"/>
-          <button type="submit"><img src="./src/assets/search.png" alt="Search icon"/></button>
+          <button type="submit"><img src={iconUrl} alt="Search icon"/></button>
         </div>
       </form>
       <button onClick={currentPos} id="posBtn">Current Location</button>

@@ -16,7 +16,7 @@ const WeatherComponent = () => {
       if (err) {
         setError("Could not access user's current location.");
       } else {
-        const posRef = await axios.get(`http://api.openweathermap.org/geo/1.0/reverse?lat=${pos.coords.latitude}&lon=${pos.coords.longitude}&limit=1&appid=${import.meta.env.VITE_API_KEY}`);
+        const posRef = await axios.get(`https://api.openweathermap.org/geo/1.0/reverse?lat=${pos.coords.latitude}&lon=${pos.coords.longitude}&limit=1&appid=${import.meta.env.VITE_API_KEY}`);
         setCity(posRef.data[0].name);
       };
     });
