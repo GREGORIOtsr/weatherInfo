@@ -1,0 +1,13 @@
+#cityResult {
+    color: #fff;
+    text-shadow: 0 5px 5px #47715270;
+}
+
+#weatherList {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+}

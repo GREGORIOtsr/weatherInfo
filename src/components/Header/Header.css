@@ -1,0 +1,23 @@
+header {
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #B9E3F380;
+    width: calc(100vw - (100vw - 100%));
+}
+
+header img {
+    position: absolute;
+    left: 15px;
+    width: 120px;
+    height: auto;
+    margin: 0;
+}
+
+header h1 {
+    color: #CDE0D2;
+    text-shadow: 0 5px 5px #47715270;
+}

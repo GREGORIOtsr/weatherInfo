@@ -1,0 +1,48 @@
+#cityForm {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 50px;
+}
+
+#cityForm label {
+    font-size: 35px;
+    color: #CDE0D2;
+    text-shadow: 0 3px 4px #495A5180;
+}
+
+#cityForm div {
+    margin: 30px 20px 0 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+}
+
+#cityForm input {
+    font-size: 30px;
+    padding: 10px;
+    width: 300px;
+    align-self: center;
+    background-color: #B9CBC990;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+#cityForm button {
+    background-color: #CDE0D2;
+    width: fit-content;
+    align-self: center;
+}
+
+#cityForm button img {
+    width: 30px;
+    height: 30px;
+}
+
+#posBtn {
+    font-size: 20px;
+    background-color: #CDE0D2;
+    margin-top: 30px;
+    bottom: none;
+    color: #000;
+}

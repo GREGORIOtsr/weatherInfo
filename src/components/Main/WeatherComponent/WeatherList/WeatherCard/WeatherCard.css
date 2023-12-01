@@ -1,0 +1,25 @@
+.card div {
+    border-radius: 20px;
+    margin: 0 20px;
+    min-width: 320px;
+    padding: 20px 0;
+}
+
+.card img {
+    width: 120px;
+    height: auto;
+}
+
+.card h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.card h2 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 20px;
+}
